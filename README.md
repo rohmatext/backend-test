@@ -8,7 +8,7 @@ Repositori ini berisi implementasi kode backend menggunakan Laravel yang digunak
    - Digunakan untuk mengautentikasi pengguna dan menghasilkan token akses.
 
 2. **CRUD (Create, Read, Update, Delete)**
-   - Endpoint: `GET /api/users`, `GET /api/users/{id}`, `POST /api/users`, `PUT|PATCH /api/crud/{id}`, `DELETE /api/crud/{id}`
+   - Endpoint: `GET /api/users`, `GET /api/users/{id}`, `POST /api/users`, `PUT|PATCH /api/users/{id}`, `DELETE /api/users/{id}`
    - Menyediakan operasi dasar untuk manipulasi data user, seperti membuat, membaca, memperbarui, dan menghapus data.
 
 3. **Pencarian Data Realtime**
@@ -49,7 +49,7 @@ php artisan key:generate
 ```
 
 ### 5. Migrasi Database
-Jika aplikasi ini menggunakan database, jalankan perintah migrasi untuk membuat tabel yang dibutuhkan:
+Jalankan perintah migrasi untuk membuat tabel yang dibutuhkan:
 ```bash
 php artisan migrate
 ```
